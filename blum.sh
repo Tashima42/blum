@@ -16,8 +16,8 @@ function remove_device() {
 function edit_device() {
   name=$1
   mac=$2
-  remove_project $name
-  add_project $name $mac
+  remove_device $name
+  add_device $name $mac
 }
 
 function list_devices() {
