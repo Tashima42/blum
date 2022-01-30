@@ -5,7 +5,7 @@ Blum will just help you to connect to bluetooth devices without having to rememb
 Attention: Always inspect scripts before running
 
 ```
-curl https://raw.githubusercontent.com/Tashima42/blum/main/blum.sh > ~/.local/bin/blum && sudo chmod +x ~/.local/bin/blum 
+curl https://raw.githubusercontent.com/Tashima42/blum/main/blum.sh > ~/.local/bin/blum && sudo chmod +x ~/.local/bin/blum && mkdir -p ~/.config && touch ~/.config/.blum
 ```
 If you have this error `bash: pomo: command not found`
   * Add `~/.local/bin` to your path with
